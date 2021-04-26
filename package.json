@@ -1,0 +1,30 @@
+{
+  "name": "blog",
+  "version": "1.0.1",
+  "description": "Nuxt.js blog",
+  "author": "Wang Bingbing",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "cookie-universal-nuxt": "^2.1.4",
+    "element-ui": "^2.14.0",
+    "mavon-editor": "^2.9.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/proxy": "^2.0.1",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "bootstrap-vue": "^2.20.1",
+    "highlight.js": "^10.3.2",
+    "marked": "^1.2.3",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.4",
+    "sass-resources-loader": "^2.1.1"
+  }
+}
