@@ -7,7 +7,7 @@
             <ContentText :content="el"></ContentText>
           </template>
         </b-col>
-        <b-col md="3" offset="1" class="rightlayout">
+        <b-col md="3"  offset-md="1">
           <div class="tag-box">
               <ul v-if="alltaglist && alltaglist.length>0">
             <li v-for="el in alltaglist" :style="`background: ${colorlists[Math.floor(Math.random() * colorlists.length)]}`" >
@@ -15,8 +15,6 @@
             </li>
           </ul>
           </div>
-        
-
           </b-col>
       </b-row>
     </b-container>
@@ -107,10 +105,7 @@ export default {
 .container {
   color: $theme-color;
 }
-.rightlayout {
-  // border-right: 1px solid;
-  border-left: 1px solid $bordercolor;
-}
+
 .tag-box ul{
  &>li{
   padding: 0 10px;
